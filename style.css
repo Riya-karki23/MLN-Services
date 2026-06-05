@@ -501,6 +501,17 @@ height:64px;
 overflow:hidden;
 }
 
+
+.stat-num{
+ 
+  font-size:1rem;
+
+}
+.stat-label{
+  font-size:8px;
+ 
+}
+
 .brand img{
 height:110px;
 }
