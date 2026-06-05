@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MNL Services Company | Express Transportation</title>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body class="loading">
+  <div id="preloader">
+    <div class="pl-box">
+      <div class="pl-logo">MNL<span>.</span></div>
+      <div class="pl-text">Services Company</div>
+      <div class="pl-line"><span></span></div>
+    </div>
+  </div>
+
+  <nav id="navbar">
+    <div class="max-w-7xl mx-auto px-5 sm:px-8">
+      <div class="flex items-center justify-between h-16 lg:h-[72px]">
+        <a href="#hero" class="brand"><img src="mnl-logo.jpeg" alt="MNL Services Company"></a>
+
+        <div class="hidden lg:flex items-center gap-8">
+          <a href="#hero" class="nav-link">Home</a>
+          <a href="#about" class="nav-link">About</a>
+          <a href="#services" class="nav-link">Services</a>
+          <a href="#fleet" class="nav-link">Fleet</a>
+          <a href="#contact" class="nav-link">Contact</a>
+        </div>
+
+        <div class="hidden lg:block">
+          <a href="#contact" class="btn-primary">Contact Us</a>
+        </div>
+
+        <button id="menuBtn" class="lg:hidden p-2 text-slate-600" aria-label="Open menu">
+          <svg id="icMenu" width="25" height="25" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+          <svg id="icClose" width="25" height="25" fill="none" stroke="currentColor" viewBox="0 0 24 24" style="display:none"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"/></svg>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobMenu" class="mob-menu lg:hidden">
+      <div class="px-5 py-4 space-y-1">
+        <a href="#hero" class="block py-3 text-slate-600 font-semibold border-b border-slate-100">Home</a>
+        <a href="#about" class="block py-3 text-slate-600 font-semibold border-b border-slate-100">About</a>
+        <a href="#services" class="block py-3 text-slate-600 font-semibold border-b border-slate-100">Services</a>
+        <a href="#fleet" class="block py-3 text-slate-600 font-semibold border-b border-slate-100">Fleet</a>
+        <a href="#contact" class="block py-3 text-slate-600 font-semibold">Contact</a>
+        <a href="#contact" class="btn-primary w-full mt-3">Contact Us</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <!-- Change video file name here if needed -->
+    <video class="hero-video" autoplay muted loop playsinline preload="metadata">
+      <source src="home.mp4" type="video/mp4">
+    </video>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <div class="hero-inner">
+        <div class="hero-badge"><span></span>Express Transportation Across The Kingdom</div>
+        <h1 class="hero-title">Premium Transport <em>Delivered Faster</em></h1>
+        <p class="hero-text">
+          MNL Services Company delivers reliable express logistics with dry box trailers,
+          curtain-side solutions and reefer trucks for modern business movement.
+        </p>
+
+        <div class="hero-stats">
+          <div class="hero-stat"><strong>35</strong><span>Trucks</span></div>
+          <div class="hero-stat"><strong>45</strong><span>Employees</span></div>
+          <div class="hero-stat"><strong>24/7</strong><span>Operations</span></div>
+        </div>
+
+        <div class="hero-actions">
+          <a href="#contact" class="btn-primary">Contact Us</a>
+          <a href="#services" class="btn-light">Explore Services</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT / STATS -->
+  <section id="about" class="section-pad bg-white">
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div class="reveal">
+          <div class="eyebrow">About MNL</div>
+          <h2 class="section-title mb-5">Built for Scale. <span>Driven by Speed.</span></h2>
+          <p class="section-text mb-7">
+            Established in 2024, MNL Services Company focuses on express transportation services
+            across the Kingdom. Our team and fleet are built for fast, reliable and professional logistics.
+          </p>
+          <div class="grid grid-cols-3 gap-4">
+            <div class="stat-card"><span class="stat-num" data-target="35">0+</span><span class="stat-label">Trucks</span></div>
+            <div class="stat-card"><span class="stat-num" data-target="45">0+</span><span class="stat-label">Employees</span></div>
+            <div class="stat-card"><span class="stat-num">2024</span><span class="stat-label">Founded</span></div>
+          </div>
+        </div>
+
+        <div class="reveal">
+          <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=1000&q=80" alt="Modern logistics" class="w-full h-[430px] object-cover rounded-[28px] shadow-xl">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="section-pad bg-slate-50">
+    <div class="container">
+      <div class="text-center max-w-2xl mx-auto mb-12 reveal">
+        <div class="eyebrow justify-center">Our Services</div>
+        <h2 class="section-title mb-4">Specialized Fleet & <span>Transport Services</span></h2>
+        <p class="section-text">Purpose-built transportation solutions for dry cargo, temperature-controlled cargo and urgent express routes.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-7">
+        <div class="service-card reveal">
+          <img src="express-logistics.jpeg" alt="Express logistics">
+          <div class="service-body">
+            <span class="tag">Express</span>
+            <h3>Express Logistics</h3>
+            <p>Fast kingdom-wide transportation with reliable coordination and professional dispatch support.</p>
+            <ul class="check-list">
+              <li>Urgent route handling</li>
+              <li>Reliable delivery planning</li>
+              <li>Business-focused support</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <img src="dry-box.jpeg" alt="Dry box trailer">
+          <div class="service-body">
+            <span class="tag">Dry Box</span>
+            <h3>Dry Box Trailers</h3>
+            <p>Standard box and curtain-side trailer options for safe and flexible dry cargo movement.</p>
+            <ul class="check-list">
+              <li>Standard box trailers</li>
+              <li>Curtain-side options</li>
+              <li>Secure cargo handling</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="service-card reveal">
+          <img src="refeer-trucks.png" alt="Reefer truck">
+          <div class="service-body">
+            <span class="tag">Reefer</span>
+            <h3>Reefer Trucks</h3>
+            <p>Refrigerated truck options with and without tailgate for temperature-sensitive deliveries.</p>
+            <ul class="check-list">
+              <li>Temperature-focused transport</li>
+              <li>Tailgate options available</li>
+              <li>Professional cold-chain care</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FLEET -->
+  <section id="fleet" class="section-pad bg-white">
+    <div class="container">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div class="reveal order-2 lg:order-1">
+          <img src="truck-image.jpeg" alt="Fleet trucks" class="w-full h-[430px] object-cover rounded-[28px] shadow-xl">
+        </div>
+
+        <div class="reveal order-1 lg:order-2">
+          <div class="eyebrow">Our Fleet</div>
+          <h2 class="section-title mb-5">Modern Equipment for <span>Modern Logistics</span></h2>
+          <p class="section-text mb-7">
+            Our fleet includes dry box trailers with box and curtain-side options, plus reefer trucks with tailgate and without tailgate configurations.
+          </p>
+
+          <div class="grid sm:grid-cols-2 gap-5">
+            <div class="fleet-card">
+              <div class="fleet-icon">🚚</div>
+              <h3>Dry Box Trailers</h3>
+              <p>Safe, practical and flexible for general cargo and regular business shipments.</p>
+            </div>
+            <div class="fleet-card">
+              <div class="fleet-icon">❄️</div>
+              <h3>Reefer Trucks</h3>
+              <p>Designed for temperature-sensitive cargo movement with reliable fleet support.</p>
+            </div>
+            <div class="fleet-card">
+              <div class="fleet-icon">📦</div>
+              <h3>Curtain-side Options</h3>
+              <p>Flexible loading and unloading for different shipment and site requirements.</p>
+            </div>
+            <div class="fleet-card">
+              <div class="fleet-icon">⏱️</div>
+              <h3>Express Focus</h3>
+              <p>Quick response and route planning for faster deliveries across the Kingdom.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE -->
+  <section class="section-pad why-section">
+    <div class="container">
+      <div class="text-center max-w-2xl mx-auto mb-12 reveal">
+        <div class="eyebrow justify-center">Why Choose Us</div>
+        <h2 class="section-title mb-4">Reliable Transport Partner</h2>
+        <p class="section-text">Simple, professional and dependable logistics support for businesses across the Kingdom.</p>
+      </div>
+
+      <div class="grid md:grid-cols-4 gap-6">
+        <div class="why-card reveal"><h3>Fast Response</h3><p>Quick coordination for urgent and planned deliveries.</p></div>
+        <div class="why-card reveal"><h3>Modern Fleet</h3><p>35 trucks covering dry cargo and reefer transportation needs.</p></div>
+        <div class="why-card reveal"><h3>Dedicated Team</h3><p>45 employees focused on smooth transport execution.</p></div>
+        <div class="why-card reveal"><h3>Kingdom-Wide</h3><p>Express transportation services across Saudi Arabia.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section-pad bg-slate-50">
+    <div class="container">
+      <div class="text-center max-w-2xl mx-auto mb-12 reveal">
+        <div class="eyebrow justify-center">Contact Us</div>
+        <h2 class="section-title mb-4">Contact <span>Information</span></h2>
+        <p class="section-text">
+          For booking, enquiry or transportation support, contact MNL Services Company directly.
+        </p>
+      </div>
+
+      <div class="grid lg:grid-cols-3 gap-8 items-stretch">
+        <div class="contact-card p-7 reveal lg:col-span-1">
+          <div class="eyebrow">MNL Details</div>
+          <h3 class="text-2xl font-black text-slate-900 mb-4">MNL Services Company</h3>
+          <p class="section-text mb-6">
+            Express transportation services across the Kingdom with dry box trailers,
+            curtain-side options and reefer trucks.
+          </p>
+
+          <div class="contact-note">
+            <strong>Operational Focus</strong>
+            <p>Fast, reliable and professional movement for business cargo across Saudi Arabia.</p>
+          </div>
+        </div>
+
+        <div class="lg:col-span-2 reveal">
+          <div class="contact-info-grid">
+            <div class="contact-card contact-info-card">
+              <div class="contact-icon">📍</div>
+              <h3>Address</h3>
+              <p>6972 Al Shabaniya, Al Sulay Dist., Riyadh 14266, Kingdom of Saudi Arabia</p>
+            </div>
+
+            <div class="contact-card contact-info-card">
+              <div class="contact-icon">📞</div>
+              <h3>Phone Number</h3>
+              <p><a href="tel:+966 57 682 1248">+966 57 682 1248</a></p>
+            </div>
+
+            <div class="contact-card contact-info-card">
+              <div class="contact-icon">✉️</div>
+              <h3>Email Address</h3>
+              <p><a href="mailto:Info@mnlksa.com">Info@mnlksa.com</a></p>
+            </div>
+
+            <div class="contact-card contact-info-card">
+              <div class="contact-icon">🚚</div>
+              <h3>Service Area</h3>
+              <p>Express transportation services all over the Kingdom.</p>
+            </div>
+          </div>
+
+          <div class="contact-card p-6 mt-6">
+            <h3 class="text-xl font-black text-slate-900 mb-3">Fleet Support</h3>
+            <div class="grid sm:grid-cols-3 gap-4 text-sm text-slate-600">
+              <div class="rounded-2xl bg-slate-50 p-4"><strong class="text-slate-900 block mb-1">35 Trucks</strong>Modern fleet support</div>
+              <div class="rounded-2xl bg-slate-50 p-4"><strong class="text-slate-900 block mb-1">45 Employees</strong>Dedicated team</div>
+              <div class="rounded-2xl bg-slate-50 p-4"><strong class="text-slate-900 block mb-1">2024</strong>Established company</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer style="background:#0b1f4b;padding:52px 0 28px">
+    <div class="container">
+      <div class="grid md:grid-cols-3 gap-9 mb-9">
+        <div>
+          <h3 class="text-white font-black text-xl mb-3">MNL Services Company</h3>
+          <p class="text-blue-200/70 leading-7 text-sm">Express transportation services all over the Kingdom. Established in 2024 with 35 trucks and 45 dedicated employees.</p>
+        </div>
+        <div>
+          <h4 class="text-white font-black uppercase tracking-[.18em] text-xs mb-4">Quick Links</h4>
+          <div class="grid gap-2">
+            <a class="footer-link" href="#hero">Home</a>
+            <a class="footer-link" href="#about">About</a>
+            <a class="footer-link" href="#services">Services</a>
+            <a class="footer-link" href="#fleet">Fleet</a>
+            <a class="footer-link" href="#contact">Contact</a>
+          </div>
+        </div>
+        <div>
+          <h4 class="text-white font-black uppercase tracking-[.18em] text-xs mb-4">Contact</h4>
+          <div class="grid gap-2 text-blue-200/70 text-sm">
+            <p>Kingdom of Saudi Arabia</p>
+            <p>+966 00 000 0000</p>
+            <p>info@mnlservices.com</p>
+            <p>Express logistics support</p>
+          </div>
+        </div>
+      </div>
+      <div class="border-t border-white/10 pt-6 flex flex-wrap justify-between gap-3 text-blue-200/50 text-sm">
+        <p>© 2024 MNL Services Company. All rights reserved.</p>
+        <p>Kingdom of Saudi Arabia — Express Logistics</p>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    window.addEventListener('load', () => {
+      const preloader = document.getElementById('preloader');
+      setTimeout(() => {
+        preloader.classList.add('done');
+        document.body.classList.remove('loading');
+        document.body.classList.add('loaded');
+      }, 650);
+    });
+
+    const menuBtn = document.getElementById('menuBtn');
+    const mobMenu = document.getElementById('mobMenu');
+    const icMenu = document.getElementById('icMenu');
+    const icClose = document.getElementById('icClose');
+
+    menuBtn.addEventListener('click', () => {
+      const open = mobMenu.classList.toggle('open');
+      icMenu.style.display = open ? 'none' : 'block';
+      icClose.style.display = open ? 'block' : 'none';
+    });
+
+    document.querySelectorAll('#mobMenu a').forEach(link => {
+      link.addEventListener('click', () => {
+        mobMenu.classList.remove('open');
+        icMenu.style.display = 'block';
+        icClose.style.display = 'none';
+      });
+    });
+
+    const navbar = document.getElementById('navbar');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 40);
+    }, { passive:true });
+
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (!target) return;
+        e.preventDefault();
+        window.scrollTo({ top: target.offsetTop - 72, behavior: 'smooth' });
+      });
+    });
+
+    const revealObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('show');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold:.12, rootMargin:'0px 0px -40px 0px' });
+    document.querySelectorAll('.reveal').forEach(el => revealObserver.observe(el));
+
+    function easeOut(t){ return 1 - Math.pow(1 - t, 3); }
+    function runCounter(el, target){
+      const start = performance.now();
+      const duration = 1100;
+      function tick(now){
+        const p = Math.min((now - start) / duration, 1);
+        el.textContent = Math.floor(easeOut(p) * target) + '+';
+        if (p < 1) requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    }
+    const counterObserver = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          runCounter(entry.target, Number(entry.target.dataset.target));
+          counterObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold:.6 });
+    document.querySelectorAll('[data-target]').forEach(el => counterObserver.observe(el));
+
+    const sections = [...document.querySelectorAll('section[id]')];
+    const navLinks = [...document.querySelectorAll('.nav-link')];
+    window.addEventListener('scroll', () => {
+      let current = 'hero';
+      sections.forEach(sec => {
+        if (window.scrollY >= sec.offsetTop - 130) current = sec.id;
+      });
+      navLinks.forEach(link => link.classList.toggle('active', link.getAttribute('href') === '#' + current));
+    }, { passive:true });
+
+
+    document.querySelectorAll('video').forEach(video => {
+      video.play?.().catch(() => {});
+    });
+  </script>
+</body>
+</html>
